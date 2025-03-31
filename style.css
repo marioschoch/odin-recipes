@@ -1,6 +1,15 @@
 body {
     font-family: "Monaco", "Lucida Console", monospace;
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
     background-color: blanchedalmond;
+}
+
+body.rezept {
+    text-align: left;
+}
+
+button {
+    background-color: lightblue;
+    font-size: 20px;
 }
