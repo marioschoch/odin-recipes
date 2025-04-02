@@ -1,3 +1,9 @@
+* {
+    border: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
 body {
     font-family: "Monaco", "Lucida Console", monospace;
     font-size: 18px;
@@ -12,9 +18,18 @@ body.rezept {
 button {
     background-color: lightblue;
     font-size: 20px;
+    padding: 5px;
 }
 
 img {
     height: auto;
     width: 350px;
+}
+
+ul {
+    padding-left: 50px;
+}
+
+ol {
+    padding-left: 50px;
 }
